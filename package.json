@@ -1,20 +1,19 @@
 {
-  "name": "peakphysique",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "Workout Tracker",
-  "main": "apiroutes.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amo02008/PeakPhysique.git"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amo02008/PeakPhysique/issues"
-  },
-  "homepage": "https://github.com/amo02008/PeakPhysique#readme"
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
 }

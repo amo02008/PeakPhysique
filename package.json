@@ -1,0 +1,20 @@
+{
+  "name": "peakphysique",
+  "version": "1.0.0",
+  "description": "Workout Tracker",
+  "main": "apiroutes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amo02008/PeakPhysique.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amo02008/PeakPhysique/issues"
+  },
+  "homepage": "https://github.com/amo02008/PeakPhysique#readme"
+}

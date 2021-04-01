@@ -21,8 +21,9 @@ mongoose.connect(
     }
   );
   
+app.use(morgan("dev"));
 
-app.use(require("./routes/apiroutes.js"));
+app.use(require("./routes/api-routes.js"));
 app.use(require("./routes/html-routes.js"));
 
 

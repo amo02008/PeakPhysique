@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3000;
 
-const workout = require("./models/workout.js");
 const app = express();
 
 app.use(express.static("public"));
@@ -15,21 +14,8 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
-app.get("/api/workouts", (req,res) => {
-workout.aggregate([{
-    $addFields: {
-        totalDuration: {
-            $sum: "$exercises.duration"
-        }
-    }
-}]).then((allworkouts) => {
-    res.json (allworkouts)
-})
-})
-
-
-
-
+app.use(require("./routes/apiroutes.js"));
+app.use(require("./routes/html-routes.js"));
 
 
 app.listen(PORT,() => {

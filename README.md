@@ -18,7 +18,7 @@ This application will allow the user to start a new workout or add one they've c
 
   <img src="/public/images/fitness_tracker.PNG" width="400">
   <img scr="/public/images/dashboard_tracker.PNG" width="400">
-
+  
   
 ## User Story
 

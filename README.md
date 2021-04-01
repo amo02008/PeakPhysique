@@ -5,7 +5,7 @@ Workout Tracker
 This application will allow the user to start a new workout or add one they've completed. In order to compile a work out the user will an exercise they complete, it can be classified as cardio or resistance. From the dashboard the user can get a visualtion represensation of the the total duration of their workout(s) and total amount of weight lifted.
 
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0),
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Table of Contents
   * [Description](#description)
@@ -16,7 +16,8 @@ This application will allow the user to start a new workout or add one they've c
   * [License](#license)
  
 
-  <img src="/public/images/fitness_tracker.PNG" width="250">
+  <img src="/public/images/fitness_tracker.PNG" width="375">
+  <img scr="/piblic/images/dashboard_tracker.PNG" width="375">
 
   
 ## User Story
@@ -33,5 +34,5 @@ There is nothing to install.
 ## Usage
 Click this link to see the deployed app.
 ## License
-![GNU GENERAL PUBLIC LICENSE
+[GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007](https://www.gnu.org/licenses/gpl-3.0.en.html)

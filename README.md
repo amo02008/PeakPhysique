@@ -16,8 +16,9 @@ This application will allow the user to start a new workout or add one they've c
   * [License](#license)
  
 
-  <img src="/public/images/fitness_tracker.PNG" width="450">
-  <!-- <img scr="/public/images/dashboard_tracker.PNG" width="400"> -->
+  <img src="/public/images/fitness_tracker.PNG" width="500">
+  
+  <img scr="/public/images/dashboard_tracker.PNG" width="500">
   
   
 ## User Story

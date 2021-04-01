@@ -27,11 +27,10 @@ Workout.create(req.body)
     });
 });
 
-router.put('/api/workouts/:id', ({ body, params }, res) => {
+router.put("/api/workouts/:id", ({ body, params }, res) => {
   Workout.findByIdAndUpdate(
     params.id,
-    { $push: { exercises: body } },
-    // "runValidators" will ensure new exercises meet our schema requirements
+    { $push: { exercises: req.body } },
     { new: true, runValidators: true }
   )
     .then((dbWorkout) => {
@@ -42,7 +41,7 @@ router.put('/api/workouts/:id', ({ body, params }, res) => {
     });
 });
 
-router.get('/api/workouts/range', (req, res) => {
+router.get("/api/workouts/range", (req, res) => {
   Workout.aggregate([
     {
       $addFields: {

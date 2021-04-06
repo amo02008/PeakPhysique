@@ -32,7 +32,7 @@ router.get("/api/workouts", (req, res) => {
 router.put("/api/workouts/:id", ({ body, params }, res) => {
   Workout.findByIdAndUpdate(
     params.id,
-    { $push: { exercises: req.body } },
+    { $push: { exercises: body } },
     { new: true}
   )
     .then((dbWorkout) => {
